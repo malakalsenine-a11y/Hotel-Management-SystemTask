@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\malak\\OneDrive\\Desktop\\Hotel Management System\\soluition01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|c:\\users\\malak\\onedrive\\desktop\\hotel management system\\soluition01\\project01\\models\\staffmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|solutionrelative:project01\\models\\staffmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|c:\\users\\malak\\onedrive\\desktop\\hotel management system\\soluition01\\project01\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|solutionrelative:project01\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|c:\\users\\malak\\onedrive\\desktop\\hotel management system\\soluition01\\project01\\models\\reviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|solutionrelative:project01\\models\\reviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|c:\\users\\malak\\onedrive\\desktop\\hotel management system\\soluition01\\project01\\models\\staffmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|solutionrelative:project01\\models\\staffmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|c:\\users\\malak\\onedrive\\desktop\\hotel management system\\soluition01\\project01\\models\\bookingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|solutionrelative:project01\\models\\bookingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|c:\\users\\malak\\onedrive\\desktop\\hotel management system\\soluition01\\project01\\models\\guestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|solutionrelative:project01\\models\\guestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|c:\\users\\malak\\onedrive\\desktop\\hotel management system\\soluition01\\project01\\models\\roommodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|solutionrelative:project01\\models\\roommodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|c:\\users\\malak\\onedrive\\desktop\\hotel management system\\soluition01\\project01\\models\\reviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|solutionrelative:project01\\models\\reviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|c:\\users\\malak\\onedrive\\desktop\\hotel management system\\soluition01\\project01\\models\\guestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|solutionrelative:project01\\models\\guestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|c:\\users\\malak\\onedrive\\desktop\\hotel management system\\soluition01\\project01\\services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|c:\\users\\malak\\onedrive\\desktop\\hotel management system\\soluition01\\project01\\services\\guestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|solutionrelative:project01\\services\\guestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|c:\\users\\malak\\onedrive\\desktop\\hotel management system\\soluition01\\project01\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|solutionrelative:project01\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|c:\\users\\malak\\onedrive\\desktop\\hotel management system\\soluition01\\project01\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,11 +66,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "GuestService.cs",
               "DocumentMoniker": "C:\\Users\\malak\\OneDrive\\Desktop\\Hotel Management System\\soluition01\\project01\\Services\\GuestService.cs",
               "RelativeDocumentMoniker": "project01\\Services\\GuestService.cs",
@@ -82,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "RoomService.cs",
               "DocumentMoniker": "C:\\Users\\malak\\OneDrive\\Desktop\\Hotel Management System\\soluition01\\project01\\Services\\RoomService.cs",
               "RelativeDocumentMoniker": "project01\\Services\\RoomService.cs",
@@ -106,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ReviewService.cs",
               "DocumentMoniker": "C:\\Users\\malak\\OneDrive\\Desktop\\Hotel Management System\\soluition01\\project01\\Services\\ReviewService.cs",
               "RelativeDocumentMoniker": "project01\\Services\\ReviewService.cs",
@@ -118,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "StaffService.cs",
               "DocumentMoniker": "C:\\Users\\malak\\OneDrive\\Desktop\\Hotel Management System\\soluition01\\project01\\Services\\StaffService.cs",
               "RelativeDocumentMoniker": "project01\\Services\\StaffService.cs",
@@ -130,32 +130,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\malak\\OneDrive\\Desktop\\Hotel Management System\\soluition01\\project01\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "project01\\Services\\EmailService.cs",
               "ToolTip": "C:\\Users\\malak\\OneDrive\\Desktop\\Hotel Management System\\soluition01\\project01\\Services\\EmailService.cs",
               "RelativeToolTip": "project01\\Services\\EmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T07:51:44.659Z"
+              "WhenOpened": "2026-06-08T07:51:44.659Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "StaffModel.cs",
               "DocumentMoniker": "C:\\Users\\malak\\OneDrive\\Desktop\\Hotel Management System\\soluition01\\project01\\Models\\StaffModel.cs",
               "RelativeDocumentMoniker": "project01\\Models\\StaffModel.cs",
               "ToolTip": "C:\\Users\\malak\\OneDrive\\Desktop\\Hotel Management System\\soluition01\\project01\\Models\\StaffModel.cs",
               "RelativeToolTip": "project01\\Models\\StaffModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-08T07:51:03.283Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ReviewModel.cs",
               "DocumentMoniker": "C:\\Users\\malak\\OneDrive\\Desktop\\Hotel Management System\\soluition01\\project01\\Models\\ReviewModel.cs",
               "RelativeDocumentMoniker": "project01\\Models\\ReviewModel.cs",
@@ -176,11 +177,12 @@
               "RelativeToolTip": "project01\\Models\\BookingModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T07:50:26.447Z"
+              "WhenOpened": "2026-06-08T07:50:26.447Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "RoomModel.cs",
               "DocumentMoniker": "C:\\Users\\malak\\OneDrive\\Desktop\\Hotel Management System\\soluition01\\project01\\Models\\RoomModel.cs",
               "RelativeDocumentMoniker": "project01\\Models\\RoomModel.cs",
@@ -188,7 +190,8 @@
               "RelativeToolTip": "project01\\Models\\RoomModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T07:50:12Z"
+              "WhenOpened": "2026-06-08T07:50:12Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -204,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GuestModel.cs",
               "DocumentMoniker": "C:\\Users\\malak\\OneDrive\\Desktop\\Hotel Management System\\soluition01\\project01\\Models\\GuestModel.cs",
               "RelativeDocumentMoniker": "project01\\Models\\GuestModel.cs",
@@ -212,7 +215,8 @@
               "RelativeToolTip": "project01\\Models\\GuestModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T07:49:43.764Z"
+              "WhenOpened": "2026-06-08T07:49:43.764Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
