@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace project01.Services
 {
-    internal class ReviewService
+    public class ReviewService
     {
     }
 }

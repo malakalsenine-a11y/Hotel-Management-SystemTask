@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace project01
 {
-    internal class HotelContext
+    public class HotelContext
     {
     }
 }
