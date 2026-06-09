@@ -32,13 +32,15 @@ namespace project01.Services
 
         public static void FindGuestById()
         {
-            string guestid;
 
             List<GuestModel> FGuests = new List<GuestModel>();
+            string guestid = "";
+
             {
-                foreach(GuestModel X in FGuests)
+                foreach (GuestModel X in FGuests)
                 {
-                    if (X guestid == guestId)
+                    if (X.guestId == guestid)
+                    
 
                         return;
                 }

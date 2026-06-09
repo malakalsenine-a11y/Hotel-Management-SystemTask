@@ -14,6 +14,6 @@ namespace project01.Models
         public string phoneNumber { get; set; }
         public static string nationality { get; set; } = "Omani";
 
-        //public List <BookingModel> Booking { get; set; }
+        public List<BookingModel> Booking { get; set; }
     }
 }
