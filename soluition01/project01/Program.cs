@@ -118,10 +118,19 @@ namespace project01
             Console.WriteLine("Staff Added Successfully.");
         }
 
-        //    public static void DisplayAllStaff(HotelContext context)
-        //{
+        //DisplayAllStaff
+        public static void DisplayAllStaff(HotelContext context)
+        {
+        {
+            if (context.staff.Count == 0)
+            {
+                Console.WriteLine("No staff in system.");
+                return;
+            }
 
-        //}
+            StaffService.DisplayAllStaff(context.staff);
+        }
+        }
 
         static void Main(string[] args)
         {
