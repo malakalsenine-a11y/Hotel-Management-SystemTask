@@ -33,9 +33,9 @@ namespace project01.Services
             {
                 foreach(RoomModel RM in room1)
                 {
-                    if ( RM.isAvailable == true)
+                    if (RoomModel.isAvailable == true)
                     {
-                        Console.WriteLine(RM);
+                        Console.WriteLine($"Room Number : {RM.roomNumber}, Room Type : {RM.roomType}, Price Per Night : {RM.pricePerNight} ,IsAvailable? : {RM.isAvailable} ");
                     }
                 }
             }
@@ -44,31 +44,34 @@ namespace project01.Services
         }
 
 
-        public static void FindRoomByNumber()
+        public static RoomModel FindRoomByNumber(List<RoomModel> room02 , string roomNumbers)
         {
-            List<RoomModel> room02 = new List<RoomModel>();
-            string roomNumbers = "";
+            //List<RoomModel> room02 = new List<RoomModel>();
+            //string roomNumbers = "";
 
             foreach (RoomModel Y in room02)
             {
                 if (Y.roomNumber == roomNumbers)
                 {
-                    Console.WriteLine(Y);
+                    return Y;
                 }
 
-                return;
             }
-
+            return null;
         }
 
-        public static void CalculateTotalPrice()
-        {
-            List<RoomModel> room03 = new List<RoomModel>();
-            
+        //public static void CalculateTotalPrice(List<RoomModel> room03)
+        //{
+        //    //List<RoomModel> room03 = new List<RoomModel>();
+
+        //    return 
+
+
 
         }
     }
 
 
-    }
-}
+    
+
+ }

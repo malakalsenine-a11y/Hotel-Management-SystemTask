@@ -14,9 +14,9 @@ namespace project01.Models
         public string checkInDate { get; set; }
         public string checkOutDate { get; set; }
         public double totalPrice { get; set; }
-        public string status { get; set; }
+        public string status { get; set; } 
 
-        //public List <ReviewModel> review { get; set; }
+        public List<ReviewModel> review { get; set; }
 
 
     }
