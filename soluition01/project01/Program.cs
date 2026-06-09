@@ -47,6 +47,8 @@ namespace project01
 
 
         }
+
+        //AddRoom
         public static void AddRoom(HotelContext context)
         {
             Console.WriteLine("Enter the Room Number :");
@@ -71,9 +73,9 @@ namespace project01
             };
             context.rooms.Add(room);
             Console.WriteLine("Room Add is Successfully");
-
-
         }
+
+        //
 
         static void Main(string[] args)
         {

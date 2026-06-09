@@ -34,7 +34,7 @@ namespace project01.Services
             {
                 foreach(RoomModel RM in room1)
                 {
-                    if (RoomModel.isAvailable == true)
+                    if (RM.isAvailable == true)
                     {
                         Console.WriteLine($"Room Number : {RM.roomNumber}, Room Type : {RM.roomType}, Price Per Night : {RM.pricePerNight} ");
                     }
@@ -65,6 +65,8 @@ namespace project01.Services
         {
             return room.pricePerNight * nights;
         }
+
+
 
 
 
