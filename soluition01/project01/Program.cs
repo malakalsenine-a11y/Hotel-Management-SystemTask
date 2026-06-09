@@ -75,8 +75,18 @@ namespace project01
             Console.WriteLine("Room Add is Successfully");
         }
 
-        //
-
+        //DisplayAvailableRooms
+        public static void DisplayAvailableRooms(HotelContext context)
+        {
+            if (context.rooms.Count == 0)
+            {
+                Console.WriteLine("No Room in System");
+            }
+            else
+            {
+                RoomService.DisplayAllRooms(context.rooms);
+            }
+        }
         static void Main(string[] args)
         {
             
