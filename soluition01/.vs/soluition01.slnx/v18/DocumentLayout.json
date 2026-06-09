@@ -78,8 +78,7 @@
               "RelativeToolTip": "project01\\Services\\GuestService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAQwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T07:53:24.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T07:53:24.982Z"
             },
             {
               "$type": "Document",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "project01\\Services\\RoomService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAADgvyAAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T07:53:06.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T07:53:06.208Z"
             },
             {
               "$type": "Document",
@@ -104,8 +102,7 @@
               "RelativeToolTip": "project01\\Services\\BookingService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T07:52:44.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T07:52:44.094Z"
             },
             {
               "$type": "Document",
@@ -117,8 +114,7 @@
               "RelativeToolTip": "project01\\Services\\ReviewService.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAUwC8AAAB/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T07:52:13.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T07:52:13.955Z"
             },
             {
               "$type": "Document",
@@ -130,8 +126,7 @@
               "RelativeToolTip": "project01\\Services\\StaffService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T07:51:57.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T07:51:57.94Z"
             },
             {
               "$type": "Document",
@@ -143,8 +138,7 @@
               "RelativeToolTip": "project01\\Services\\EmailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T07:51:44.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T07:51:44.659Z"
             },
             {
               "$type": "Document",
@@ -156,8 +150,7 @@
               "RelativeToolTip": "project01\\Models\\StaffModel.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T07:51:03.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T07:51:03.283Z"
             },
             {
               "$type": "Document",
@@ -169,8 +162,7 @@
               "RelativeToolTip": "project01\\Models\\ReviewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T07:50:43.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T07:50:43.094Z"
             },
             {
               "$type": "Document",
@@ -182,8 +174,7 @@
               "RelativeToolTip": "project01\\Models\\BookingModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T07:50:26.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T07:50:26.447Z"
             },
             {
               "$type": "Document",
@@ -220,8 +211,7 @@
               "RelativeToolTip": "project01\\Models\\GuestModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T07:49:43.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T07:49:43.764Z"
             },
             {
               "$type": "Document",
@@ -233,8 +223,7 @@
               "RelativeToolTip": "project01\\HotelContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T07:49:25.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T07:49:25.78Z"
             },
             {
               "$type": "Document",
@@ -244,7 +233,7 @@
               "RelativeDocumentMoniker": "project01\\Program.cs",
               "ToolTip": "C:\\Users\\malak\\OneDrive\\Desktop\\Hotel Management System\\soluition01\\project01\\Program.cs",
               "RelativeToolTip": "project01\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAADgv0gAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAUwEgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-08T07:44:52.589Z",
               "EditorCaption": ""

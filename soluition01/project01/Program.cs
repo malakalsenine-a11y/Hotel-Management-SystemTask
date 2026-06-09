@@ -47,30 +47,33 @@ namespace project01
 
 
         }
-        //public static void AddRoom(HotelContext context)
-        //{
-        //    Console.WriteLine("Enter the Room Number :");
-        //    string roomNumber = Console.ReadLine();
+        public static void AddRoom(HotelContext context)
+        {
+            Console.WriteLine("Enter the Room Number :");
+            string roomNumber = Console.ReadLine();
 
-        //    Console.WriteLine("Enter the Room Type :");
-        //    string roomType = Console.ReadLine();
+            Console.WriteLine("Enter the Room Type :");
+            string roomType = Console.ReadLine();
 
-        //    Console.WriteLine("Enter tprice Per Night :");
-        //    double pricePerNight = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter tprice Per Night :");
+            double pricePerNight = Convert.ToDouble(Console.ReadLine());
 
-        //    Console.WriteLine("Enter floor :");
-        //    int floor = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter floor :");
+            int floor = Convert.ToInt32(Console.ReadLine());
 
-        //    RoomModel room = new RoomModel
-        //    {
-        //        roomNumber = roomNumber,
-        //        roomType = roomType,
-        //        pricePerNight = pricePerNight,
-        //        floor = floor,
-        //    };
+            RoomModel room = new RoomModel
+            {
+                roomNumber = roomNumber,
+                roomType = roomType,
+                pricePerNight = pricePerNight,
+                floor = floor,
+                isAvailable = true
+            };
+            context.rooms.Add(room);
+            Console.WriteLine("Room Add is Successfully");
 
 
-        //}
+        }
 
         static void Main(string[] args)
         {
