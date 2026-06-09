@@ -87,12 +87,49 @@ namespace project01
                 RoomService.DisplayAllRooms(context.rooms);
             }
         }
+
+        //AddStaff
+        public static void AddStaff(HotelContext context)
+        {
+            Console.WriteLine("Enter the staff id :");
+            string staffId = Console.ReadLine();
+
+            Console.WriteLine("Enter full name :");
+            string fullName = Console.ReadLine();
+
+            Console.WriteLine("Enter the role :");
+            string role = Console.ReadLine();
+
+            Console.WriteLine("Enter the email :");
+            string email = Console.ReadLine();
+
+
+            StaffModel staff = new StaffModel
+            {
+                staffId = staffId,
+                fullName = fullName,
+                role = role,
+                email = email,
+                isOnDuty = true
+            };
+
+            context.staff.Add(staff);
+
+            Console.WriteLine("Staff Added Successfully.");
+        }
+
+        //    public static void DisplayAllStaff(HotelContext context)
+        //{
+
+        //}
+
         static void Main(string[] args)
         {
             
         }
     }
 }
+
 
 
 
