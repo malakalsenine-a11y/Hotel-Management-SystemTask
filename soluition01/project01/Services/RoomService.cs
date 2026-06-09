@@ -21,7 +21,8 @@ namespace project01.Services
                     Console.WriteLine($"Room Number : {R.roomNumber} ");
                     Console.WriteLine($"Room Type : {R.roomType} ");
                     Console.WriteLine($"Price Per Night : {R.pricePerNight} ");
-                    Console.WriteLine($"I sAvailable? : {R.isAvailable} ");
+                    //Console.WriteLine($"Price Per Night : {R.isAvailable} ");
+
                 }
 
             }
@@ -35,7 +36,7 @@ namespace project01.Services
                 {
                     if (RoomModel.isAvailable == true)
                     {
-                        Console.WriteLine($"Room Number : {RM.roomNumber}, Room Type : {RM.roomType}, Price Per Night : {RM.pricePerNight} ,IsAvailable? : {RM.isAvailable} ");
+                        Console.WriteLine($"Room Number : {RM.roomNumber}, Room Type : {RM.roomType}, Price Per Night : {RM.pricePerNight} ");
                     }
                 }
             }
@@ -60,18 +61,17 @@ namespace project01.Services
             return null;
         }
 
-        //public static void CalculateTotalPrice(List<RoomModel> room03)
-        //{
-        //    //List<RoomModel> room03 = new List<RoomModel>();
-
-        //    return 
-
-
-
+        public static double CalculateTotalPrice(RoomModel room, int nights)
+        {
+            return room.pricePerNight * nights;
         }
+
+
+
+    }
     }
 
 
     
 
- }
+ 
