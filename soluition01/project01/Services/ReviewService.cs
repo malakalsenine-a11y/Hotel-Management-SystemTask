@@ -9,20 +9,22 @@ namespace project01.Services
 {
     public class ReviewService
     {
+        //ReviewService(AddReview(BookingModel, ReviewModel))
         public static void AddReview(BookingModel booking , ReviewModel review)
         {
             booking.review.Add(review);
         }
 
-        public static void DisplayReviewsForBooking(List <ReviewModel> DRbooking)
+        //ReviewService(DisplayReviewsForBooking(BookingModel))
+        public static void DisplayReviewsForBooking(BookingModel DRbooking)
         {
 
-            foreach(ReviewModel  T in DRbooking)
+            foreach(ReviewModel  T in DRbooking.review)
             {
                 Console.WriteLine($"Review Rating: {T.rating} , Reviews Comment: {T.comment}");
             }
 
-            if ( DRbooking == null)
+            if ( DRbooking.review == null)
             {
                 Console.WriteLine("No reviews yet");
             }
@@ -43,6 +45,4 @@ namespace project01.Services
 
 
 
-//AddReview(BookingModel, ReviewModel) void — add the review to booking.bookingReviews.
 
-//DisplayReviewsForBooking(BookingModel) void —print each review's rating and comment. If none exist, print "No reviews yet.". 

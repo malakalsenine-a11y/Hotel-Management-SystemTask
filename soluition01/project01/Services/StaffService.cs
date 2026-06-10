@@ -9,6 +9,7 @@ namespace project01.Services
 {
     public class StaffService
     {
+        //StaffService(DisplayAllStaff(List<StaffModel>) 
         public static void DisplayAllStaff(List <StaffModel> staff)
         {
             foreach (StaffModel SM in staff) {
@@ -17,6 +18,7 @@ namespace project01.Services
             }
         }
 
+        //StaffService(FindStaffById(List<StaffModel>, string staffId) 
         public static StaffModel FindStaffById(List <StaffModel> staf , string staffid)
         {
             foreach(StaffModel S in staf)
@@ -30,6 +32,7 @@ namespace project01.Services
             return null;
         }
 
+        //StaffService(ToggleDutyStatus(StaffModel)
         public static void ToggleDutyStatus(StaffModel s)
         {
          if(s.isOnDuty == true)

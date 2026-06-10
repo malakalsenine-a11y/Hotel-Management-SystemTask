@@ -9,10 +9,9 @@ namespace project01.Services
 {
     public static class GuestService
     {
-
-        public static void DisplayAllGuests() //Methoud
+        //GuestService(DisplayAllGuests(List<GuestModel>):
+        public static void DisplayAllGuests(List<GuestModel> Guests) 
         {
-            List<GuestModel> Guests = new List<GuestModel>();
 
             {
                 foreach (GuestModel Guest in Guests)
@@ -30,21 +29,19 @@ namespace project01.Services
             }
         }
 
-        public static void FindGuestById()
+        //GuestService(DisplayAllGuests(List<GuestModel>, string guestid)
+        public static GuestModel FindGuestById(List<GuestModel> FGuests , string guestid)
         {
 
-            List<GuestModel> FGuests = new List<GuestModel>();
-            string guestid = "";
-
-            {
                 foreach (GuestModel X in FGuests)
                 {
-                    if (X.guestId == guestid)
-                    
+                if (X.guestId == guestid)
 
-                        return;
+
+                    return X;
                 }
+            return null;
             }
         }
     }
-}
+

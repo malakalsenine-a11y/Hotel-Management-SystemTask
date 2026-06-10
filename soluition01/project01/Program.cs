@@ -121,7 +121,7 @@ namespace project01
         //DisplayAllStaff
         public static void DisplayAllStaff(HotelContext context)
         {
-        {
+       
             if (context.staff.Count == 0)
             {
                 Console.WriteLine("No staff in system.");
@@ -130,14 +130,59 @@ namespace project01
 
             StaffService.DisplayAllStaff(context.staff);
         }
-        }
+        
+
+        //BookRoom (HotelContext context):
+        public static void BookRoom(HotelContext context)
+        {
+            Console.WriteLine("Enter Guest id");
+            string guestId = Console.ReadLine();
+
+            Console.WriteLine("Enter room number ");
+            string roomNumber = Console.ReadLine();
+
+            var guest = GuestService.FindGuestById(context.guests, guestId);
+            if (guest == null)
+            {
+                Console.WriteLine("not found");
+                return;
+            }
+
+            var NumberRoom  = RoomService.FindRoomByNumber(context.rooms, roomNumber);
+            if (NumberRoom == null)
+            {
+                Console.WriteLine("not found");
+                return;
+            }
+
+            if (NumberRoom.isAvailable == false)
+            {
+                Console.WriteLine("Room not available");
+                return;
+
+            }
+
+            }
+        
 
         static void Main(string[] args)
         {
-            
+            HotelContext context = new HotelContext(); // system storage
+            context.rooms = new List<RoomModel>();
+            context.guests = new List<GuestModel>();
+            context.bookings = new List<BookingModel>();
+            context.reviews = new List<ReviewModel>();
+            context.staff = new List<StaffModel>();
+
+
+
+
         }
     }
 }
+
+
+
 
 
 

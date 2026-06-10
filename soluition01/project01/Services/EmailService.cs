@@ -8,7 +8,12 @@ namespace project01.Services
 {
     public class EmailService
     {
+
+        //EmailService(SystemEmail):
         public static string SystemEmail = "hms@grandcodeline.om";
+
+
+        //EmailService(SendEmail(...) :
         public static void SendEmail (string to, string subject, string body)
         {
             Console.WriteLine($"Sending email from : {SystemEmail}");

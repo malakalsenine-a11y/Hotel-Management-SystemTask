@@ -11,7 +11,8 @@ namespace project01.Services
 {
     public class BookingService
     {
-      public static void  DisplayAllBookings(List <BookingModel> booking)
+        //BookingService(DisplayAllBookings(List<BookingModel>) 
+        public static void  DisplayAllBookings(List <BookingModel> booking)
         {
             foreach(BookingModel BM in booking)
             {
@@ -20,7 +21,8 @@ namespace project01.Services
             }
         }
 
-      public static BookingModel FindBookingById (List<BookingModel> FBooking, string bookingId)
+        //BookingService(FindBookingById(List<BookingModel>, string bookingId) 
+        public static BookingModel FindBookingById (List<BookingModel> FBooking, string bookingId)
         {
             foreach(BookingModel FB in FBooking)
             {
@@ -34,27 +36,39 @@ namespace project01.Services
             return null;
         }
 
-      public static bool CancelBooking(List<BookingModel> CBooking)
+        //BookingService(CancelBooking(BookingModel) 
+        public static bool CancelBooking(BookingModel CBooking)
         {
-            bool Cancelled = true;
-            foreach (BookingModel CB in CBooking)
-            {
-                if (CB.status == "Cancelled")
-                {
-                    return true;
-                }
-                else
-                {
 
-                }
+            if (CBooking.status == "Cancelled")
+            {
+                return false;
             }
-            return false;
+            else
+            {
+                CBooking.status = "Cancelled";
+
+
+                return true;
+            }
         }
 
-      //public static bool CompleteBooking(List<BookingModel> ComBooking)
-      //  {
-      //      return;
-      //  }
+
+        //BookingService(CompleteBooking(BookingModel)
+        public static bool CompleteBooking(BookingModel ComBooking)
+        {
+            if (ComBooking.status == "Completed")
+            {
+                return true;
+            }
+            else
+            {
+                ComBooking.status = "Completed";
+
+
+                return false;
+            }
+        }
 
 
 
@@ -67,8 +81,3 @@ namespace project01.Services
 
 
 
-
-//CompleteBooking(BookingModel)
-//bool — set status to "Completed" 
-//and set the linked room's isAvailable back to true. 
-//Accept the RoomModel as a
